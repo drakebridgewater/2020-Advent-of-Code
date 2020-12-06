@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Advent of Code Day 1",
+            "env": {"PYTHONPATH":"$PYTHONPATH"},
+            "type": "python",
+            "request": "launch",
+            "program": "bin/adventofcode",
+            "args": [
+                "1",
+                "part2"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Advent of Code Day 2",
+            "type": "python",
+            "request": "launch",
+            "program": "bin/adventofcode",
+            "args": [
+                "2",
+                "part1"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
